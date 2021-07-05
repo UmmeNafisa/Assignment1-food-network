@@ -1,0 +1,33 @@
+body html{
+   height: 100%;
+    
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 10px;
+    border: black solid 0px;
+    margin: 20px 10px 40px 10px;
+    background-image: linear-gradient(rgb(161, 231, 161), green);
+  
+}
+.top-part{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('image/back1.png');
+    background-size: cover; 
+    height: 800px; 
+    padding-top:80px;
+}
+#gsearch{
+    font-size: xx-large;
+}
+.search-tag{
+    font-size: xx-large;
+    font-family: 'Otomanopee One', sans-serif;
+    color:white
+}
+.search-part{
+    text-align: center;
+}

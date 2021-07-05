@@ -6,9 +6,9 @@ h1{
     font-size: 400%;
     text-align: center;
     color: aliceblue;
-    padding: 10px 10px;
+    background-image: radial-gradient(darkblue skyblue);
     border: black solid 0px;
-    margin: 20px 10px 40px 10px;
+    margin: 20px 0px 40px 0px;
     background-image: linear-gradient(rgb(161, 231, 161), green);
   
 }
@@ -29,5 +29,89 @@ h1{
     color:white
 }
 .search-part{
+    text-align: center;
+}
+.txt-clr{
+    color: orange;
+}
+h2{
+    font-size: 40px
+}
+h3{
+    font-size: 29px;
+    text-align: justify;
+}
+p{
+    color: gray;
+    font-size:  20px; 
+    font-weight: 500;
+}
+.second-part{
+    display: flex;
+    background-image: url(image/Frame\ 57.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.second-part-full{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 12%;
+    text-align:left;
+}
+.second-part-full img{
+    width: 100%;
+    padding-right: 10%;
+
+}
+.order-button{ 
+    text-decoration: none;
+    padding: 4px 8px 4px 8px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px; 
+    border: white solid 2px;  
+    background-image: radial-gradient(rgb(236, 151, 120),rgb(231, 68, 9));
+   
+}
+.third-part{
+    display: flex;
+    background-image: url(image/Frame\ 59.jpg);
+    background-size: 100%;
+    background-position:top;
+}
+.third-part-full{
+    width: 100%;
+    padding-right: 20%;
+    padding-top:  5%; 
+    text-align: justify ;
+}
+
+.third-part-full img{
+    width: 120%;
+    padding-left: 10%;
+}
+.read-button{
+    text-decoration: none;
+    padding: 4px 8px 4px 8px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px; 
+    border: white solid 2px;  
+    background-image: radial-gradient(rgb(69, 216, 241),rgb(52, 70, 235));
+}
+.forth-part{
+    display: flex;
+    border: black solid 0px;
+    margin: 20px 50px 40px 50px;
+    text-align: center;
+
+}
+.forth-part-full{
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
+}
+.forth-part-full h3{
     text-align: center;
 }

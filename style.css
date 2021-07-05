@@ -99,19 +99,35 @@ p{
     border: white solid 2px;  
     background-image: radial-gradient(rgb(69, 216, 241),rgb(52, 70, 235));
 }
-.forth-part{
-    display: flex;
-    border: black solid 0px;
-    margin: 20px 50px 40px 50px;
-    text-align: center;
 
+.forth-part-head{
+    width: 34%;
+    border: white solid 2px;
+    padding: 20px 40px 0px 40px;
+   
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 30%;
 }
-.forth-part-full{
-    width: 100%;
-    padding-right: 30%;
-    padding-left: 30%;
+.forth-part-head h3{
     text-align: center;
 }
-.forth-part-full h3{
+.forth-part img{
+    width: 5%;
+}
+
+
+footer{
+    background-color: black;
+  
+}
+footer h3{
+    color: green;
+    font-family: 'Otomanopee One', sans-serif;
     text-align: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
 }

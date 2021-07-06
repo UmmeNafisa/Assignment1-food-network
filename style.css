@@ -40,6 +40,7 @@ h2{
 h3{
     font-size: 29px;
     text-align: justify;
+    
 }
 p{
     color: gray;
@@ -65,7 +66,7 @@ p{
 }
 .order-button{ 
     text-decoration: none;
-    padding: 4px 8px 4px 8px;
+    padding: 6px 10px 6px 10px;
     color: white;
     font-weight: 700;
     border-radius: 5px; 
@@ -82,7 +83,7 @@ p{
 .third-part-full{
     width: 100%;
     padding-right: 20%;
-    padding-top:  5%; 
+    padding-top:  3%; 
     text-align: justify ;
 }
 
@@ -92,12 +93,12 @@ p{
 }
 .read-button{
     text-decoration: none;
-    padding: 4px 8px 4px 8px;
+    padding: 6px 10px 6px 10px;
     color: white;
     font-weight: 700;
     border-radius: 5px; 
     border: white solid 2px;  
-    background-image: radial-gradient(rgb(69, 216, 241),rgb(52, 70, 235));
+    background-image: radial-gradient(rgb(48, 209, 238),rgb(12, 111, 204));
 }
 
 .forth-part-head{
@@ -112,16 +113,38 @@ p{
 .forth-part-head h3{
     text-align: center;
 }
-.forth-part img{
-    width: 5%;
+
+.forth-part{
+    display: flex;
+    margin-bottom: 100px;
+}
+.forth-part-full{
+    width:20%;
+    margin-left:5%;
+    margin-right: 6%;
+    padding:14px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 30px gray;
+
+}
+.forth-part-full img{
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
 }
 
-
+.fifth-part{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    background-image: url(image/Frame\ 58.jpg);
+}
 footer{
     background-color: black;
   
 }
 footer h3{
+ padding-top: 30px;
     color: green;
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
@@ -129,5 +152,5 @@ footer h3{
 footer p{
     color: white;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }

@@ -19,6 +19,12 @@ body,html{
     height: 87%; 
     padding-top:100px;
 }
+.top-part-img{
+    height: 105px;
+    width: 105px;
+    border: green solid 2px;
+    border-radius: 50% ;   
+}
 #gsearch{
     font-size: xx-large;
 }

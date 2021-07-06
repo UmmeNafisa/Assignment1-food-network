@@ -1,24 +1,23 @@
-body html{
+body,html{
    height: 100%;
     
 }
-h1{
-    font-size: 400%;
-    text-align: center;
-    color: aliceblue;
-    background-image: radial-gradient(darkblue skyblue);
-    border: black solid 0px;
-    margin: 20px 0px 40px 0px;
-    background-image: linear-gradient(rgb(161, 231, 161), green);
-  
+.top-part h1{
+    font-size: 75px;
+    text-align: right;
+    color: green;
+    margin-right: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+     
 }
+
 .top-part{
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('image/back1.png');
+    background-image: url('image/background-top.jpg');
     background-size: cover; 
-    height: 800px; 
-    padding-top:80px;
+    height: 87%; 
+    padding-top:100px;
 }
 #gsearch{
     font-size: xx-large;
@@ -26,9 +25,10 @@ h1{
 .search-tag{
     font-size: xx-large;
     font-family: 'Otomanopee One', sans-serif;
-    color:white
+    color:rgb(12, 1, 1)
 }
 .search-part{
+    margin-left: 50%;
     text-align: center;
 }
 .txt-clr{
@@ -40,7 +40,7 @@ h2{
 }
 h3{
     font-family: 'Otomanopee One', sans-serif;
-    font-size: 29px;
+    font-size: 30px;
     text-align: justify;
     
 }
@@ -63,8 +63,6 @@ p{
 }
 .second-part-full img{
     width: 100%;
-    padding-right: 10%;
-
 }
 .order-button{ 
     text-decoration: none;
@@ -127,7 +125,10 @@ p{
     padding:14px;
     border-radius: 10px;
     box-shadow: 8px 8px 30px gray;
-
+}
+.forth-part-full h3{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 25px;
 }
 .forth-part-full img{
     width: 100%;
@@ -137,8 +138,15 @@ p{
 
 .fifth-part{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-image: url(image/Frame\ 58.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fifth-part h2{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+    
 }
 .fifth-part-left{
     margin-left:5%;
@@ -156,7 +164,8 @@ footer{
   
 }
 footer h3{
- padding-top: 30px;
+    font-size: 33px;
+ padding-top: 20px;
     color: green;
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;

@@ -1,16 +1,14 @@
 body,html{
    height: 100%;
-    
+   margin: 0;   
 }
 .top-part h1{
     font-size: 75px;
     text-align: right;
     color: green;
     margin-right: 20px;
-    font-family: 'Otomanopee One', sans-serif;
-     
+    font-family: 'Otomanopee One', sans-serif     
 }
-
 .top-part{
     background-repeat: no-repeat;
     background-position: center;

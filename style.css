@@ -35,9 +35,11 @@ h1{
     color: orange;
 }
 h2{
+    font-family: 'Otomanopee One', sans-serif;
     font-size: 40px
 }
 h3{
+    font-family: 'Otomanopee One', sans-serif;
     font-size: 29px;
     text-align: justify;
     
@@ -135,9 +137,19 @@ p{
 
 .fifth-part{
     display: flex;
-    width: 100%;
     margin-bottom: 100px;
     background-image: url(image/Frame\ 58.jpg);
+}
+.fifth-part-left{
+    margin-left:5%;
+    margin-right: 6%;
+    text-align: center;
+  
+}
+.fifth-part-right{
+    margin-right: 5%;
+    margin-left: 20% ;
+    text-align: center;
 }
 footer{
     background-color: black;
